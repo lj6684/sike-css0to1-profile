@@ -141,3 +141,45 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center top;
   background-image: url(../img/skill-product.png);
 }
+
+.education-experience__list{
+	list-style: none;
+}
+
+.education-experience__list li {
+	margin-top: 50px;
+}
+
+.education-experience__list img {
+	width: 180px;
+	float: left;
+}
+
+.education-experience__list__description {
+	overflow: hidden;
+	padding-left: 50px;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.photos__list {
+	list-style: none;
+	overflow: hidden;
+}
+
+.photos__list li {
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+.photos__list li img {
+	width: 100%;	
+}
+
