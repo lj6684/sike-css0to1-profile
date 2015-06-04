@@ -183,3 +183,58 @@ html {
 	width: 100%;	
 }
 
+.get-in-touch {
+}
+
+.get-in-touch__list {
+	list-style: none;
+	overflow: hidden;
+}
+
+.get-in-touch__list li {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+.get-in-touch__list img {
+	height: 100px;
+}
+
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.contact form {
+	width: 40%;
+	margin: 0px auto;
+	position: relative;
+}
+
+.contact label {
+	position: absolute;
+	left: -35%;
+	width: 25%;
+	text-align: right;
+	margin: 10px 5px;
+}
+
+.contact button {
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+  width: 100%
+}
+
